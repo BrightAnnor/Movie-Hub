@@ -1,7 +1,9 @@
 // current movies
 const moviesTitle = ['Fast X','John Wick','Merlin','Extraction']
 const moviesContainer = document.getElementById('moviesContainer')
-const apiKey = '4f9990b9'
+// apiKey
+import apiKey from "../javascript/apikey.js"
+
 
 // generate movie
 const movieRequest = async(title)=>{
